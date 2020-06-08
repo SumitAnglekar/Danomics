@@ -89,15 +89,6 @@ public class CsvController {
 
 		return response;
 	}
-	
-	@CrossOrigin("http://localhost:3001")
-	 @PostMapping(value = "/uploads", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-	    public ResponseEntity uploadFile(@RequestParam MultipartFile file) {
-		 
-		 System.out.println("File name "+file.getOriginalFilename()+" uploaded successfully.");
-	        //logger.info(String.format("File name '%s' uploaded successfully.", file.getOriginalFilename()));
-	        return ResponseEntity.ok().build();
-	    }
 
 	public double calculatingPercentile(List<Double> list, int percentile) {
 
