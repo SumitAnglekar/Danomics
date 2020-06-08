@@ -30,12 +30,6 @@ public class CsvController {
 
 	private String originalName;
 
-	//@CrossOrigin("http://localhost:3001")
-	@GetMapping("/check")
-	public String index() {
-		return "mrinal";
-	}
-
 	@CrossOrigin("http://localhost:3001")
 	@PostMapping(path="/upload", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
 	public ResponseEntity<String> uploadCSVFile(@RequestParam("files") MultipartFile file,
