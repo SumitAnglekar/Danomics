@@ -1,21 +1,21 @@
-## Danomics
+# Danomics
 
 Please find the given interview task for Danomics.
 
-# FrontEnd : React
-# BackEnd : Java Springboot
+## FrontEnd : React
+## BackEnd : Java Springboot
 
-# Steps:
-# Step 1:
+## Steps:
+### Step 1:
 git clone [repository url]
 
-# Step 2:
+### Step 2:
 cd [local repository]
 
-# Step 3:
+### Step 3:
 Copy the repo to the IDE
 
-# Step 4:
+### Step 4:
 Check package.json file and ensure scripts are notated as below:
 
 "scripts": {
@@ -25,19 +25,19 @@ Check package.json file and ensure scripts are notated as below:
     "eject": "react-scripts eject"
   },
 
-# Step 5: 
+### Step 5: 
 npm install
 
-# Step 6:
+### Step 6:
 Run the Spring boot application
 
-# Step 7:
+### Step 7:
 npm start
 
-# Step 8:
+### Step 8:
 Enter appropriate data in the UI and hit submit
 Use reset if necessary.
 
-# Step 9:
+### Step 9:
 Output will be displayed
 
